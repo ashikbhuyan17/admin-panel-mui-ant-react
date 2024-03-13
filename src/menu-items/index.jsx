@@ -3,10 +3,11 @@
 
 import administration from "./administration";
 import dashboard from "./dashboard";
-import pages from "./pages";
+import Appointments from "./salon/Appointments";
+import Services from "./salon/Service";
 
 const menuItems = {
-    items: [dashboard, pages, administration, administration, administration, administration, administration, administration]
+    items: [dashboard, Appointments, Services, administration]
 };
 
 export default menuItems;
