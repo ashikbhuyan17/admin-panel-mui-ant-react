@@ -1,32 +1,27 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 // material-ui
-import { useTheme } from '@mui/material/styles';
 import {
   Drawer,
-  Fab,
   FormControl,
   FormControlLabel,
   Grid,
-  IconButton,
   Radio,
   RadioGroup,
   Slider,
-  Tooltip,
-  Typography,
+  Typography
 } from '@mui/material';
-import { IconSettings } from '@tabler/icons';
+import { useTheme } from '@mui/material/styles';
 
 // third-party
 import PerfectScrollbar from 'react-perfect-scrollbar';
 
 // project imports
 // import SubCard from 'ui-component/cards/SubCard';
-import SubCard from '../../ui-component/cards/SubCard';
-import AnimateButton from '../../ui-component/extended/AnimateButton';
 import { SET_BORDER_RADIUS, SET_FONT_FAMILY } from '../../store/actions';
 import { gridSpacing } from '../../store/constant';
+import SubCard from '../../ui-component/cards/SubCard';
 
 // concat 'px'
 function valueText(value) {
@@ -92,7 +87,7 @@ const Customization = () => {
   return (
     <>
       {/* toggle button */}
-      <Tooltip title="Live Customize">
+      {/* <Tooltip title="Live Customize">
         <Fab
           component="div"
           onClick={handleToggle}
@@ -117,7 +112,7 @@ const Customization = () => {
             </IconButton>
           </AnimateButton>
         </Fab>
-      </Tooltip>
+      </Tooltip> */}
 
       <Drawer
         anchor="right"

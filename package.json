@@ -16,17 +16,18 @@
     "@mui/material": "^5.8.6",
     "@mui/system": "^5.8.6",
     "@mui/utils": "^5.8.6",
-    "material-ui-popup-state": "^4.0.1",
-    "@tabler/icons": "^1.72.0",
-    "framer-motion": "^6.3.16",
-    "react-device-detect": "^2.2.2",
     "@reduxjs/toolkit": "^1.9.3",
+    "@tabler/icons": "^1.72.0",
+    "antd": "^5.15.2",
     "eslint-plugin-prettier": "^4.2.1",
+    "framer-motion": "^6.3.16",
+    "material-ui-popup-state": "^4.0.1",
     "react": "^18.2.0",
+    "react-device-detect": "^2.2.2",
     "react-dom": "^18.2.0",
+    "react-perfect-scrollbar": "^1.5.8",
     "react-redux": "^8.0.5",
-    "react-router-dom": "^6.8.2",
-    "react-perfect-scrollbar": "^1.5.8"
+    "react-router-dom": "^6.8.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
@@ -39,8 +40,8 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "sass": "^1.53.0",
     "prettier": "2.8.4",
+    "sass": "^1.53.0",
     "vite": "^4.1.0"
   }
 }
